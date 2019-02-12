@@ -14,7 +14,11 @@ Login page built with React
 
 ## See this working
 
-Get download [here.](https://github.com/ready-react/ready-react-login/archive/master.zip), after extract:
+Get download [here](https://github.com/ready-react/ready-react-login/archive/master.zip) and extract:
+
+Copy `/build` to your local server (as Apache or Nginx). And see in http://localhost.
+
+or use `npm`:
 
     cd ready-react-login
     npm install
@@ -25,7 +29,7 @@ Open [http://localhost:3000](http://localhost:3000) to view it in the browser.
 
 ## Usage
 
-1 - Get download [here.](https://github.com/ready-react/ready-react-login/archive/master.zip)
+1 - Get download [here](https://github.com/ready-react/ready-react-login/archive/master.zip)
 
 2 - Copy the folder `/src/ready-react-login` into your project `/src/components`.
 

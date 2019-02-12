@@ -1,8 +1,29 @@
-body {
-    background: #112222 !important;
+#WrapLoginPage p {
+	text-align: left;
+}
+#WrapLoginPage h3 {
+	margin-bottom: 1.8em;
+	font-size: 30px;
+}
+#btnLogin {
+	width: 100%;
+	padding: 12px;
+	font-size: 16px;
+}
+#WrapLoginPage .form-control{
+	padding: 12px;
+	font-size: 16px;
+	height: inherit;
+}
+#WrapLoginPage .btns-bottom-form-login {
+	margin-top: 2em;
+}
+#WrapLoginPage .btns-bottom-form-login label{
+	font-size: 16px;
 }
 
 /* Margin */
+/* top */
 .margin-top-80 {
     margin-top: 80px;
 }
@@ -12,3 +33,39 @@ body {
 .margin-top-120 {
     margin-top: 120px;
 }
+/* End Margin */
+
+/* Theme */
+body {
+    background: #112222 !important;
+}
+#btnLogin {
+	background: #ff0063;
+	color: white;
+	border: #ff0063;
+}
+#WrapLoginPage input.form-control {
+	background: none;
+}
+#WrapLoginPage span.input-group span.input-group-addon {
+	background: none;
+}
+#WrapLoginPage .form-group .fa {
+	color: #ccc;
+}
+#WrapLoginPage .btns-bottom-form-login label{
+	color: #ccc;
+	font-weight: 300;
+}
+#WrapLoginPage .btns-bottom-form-login a,
+#WrapLoginPage .btns-bottom-form-login a:hover,
+#WrapLoginPage .btns-bottom-form-login a:focus {
+	color: #12a293
+}
+#WrapLoginPage p {
+	color: #ccc;
+}
+#WrapLoginPage h3 {
+	color: #ccc;
+}
+/* End theme */
